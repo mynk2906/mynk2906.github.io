@@ -71,3 +71,33 @@ $(document).ready(function () {
     },
   });
 });
+
+// var link = document.createElement('a');
+// link.href = 'https://drive.google.com/file/d/13L6OYIrzC24WZfZszSOmGFauPL3snFEK/view?usp=share_link';
+// link.download = 'file.pdf';
+// link.dispatchEvent(new MouseEvent('click'));
+
+// let resumeSection= document.getElementById("resumebutton")
+//   resumeSection.addEventListener("click",()=>{
+//     window.open('https://drive.google.com/file/d/13L6OYIrzC24WZfZszSOmGFauPL3snFEK/view?usp=share_link', '_blank');
+ 
+// })
+
+function download_file(fileURL, fileName) {
+  var link = document.createElement('a');
+  link.href = fileURL;
+  link.download = fileName;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
+
+let resumeSection= document.getElementById("resumebutton")
+  resumeSection.addEventListener("click",()=>{
+    // window.open('https://drive.google.com/file/d/13L6OYIrzC24WZfZszSOmGFauPL3snFEK/view?usp=share_link', '_blank');
+    var fileURL = "https://drive.google.com/file/d/13L6OYIrzC24WZfZszSOmGFauPL3snFEK/view?usp=share_link";
+    var fileName = "test.pdf";
+    download_file(fileURL, fileName);
+ 
+})
