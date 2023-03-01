@@ -1275,7 +1275,7 @@ section {
   background-size: cover;
   background-position: bottom;
 }
-.about .about-content .left {
+/* .about .about-content .left {
   width: calc(33% - 20px);
   background: rgb(34, 34, 34);
   text-align: center;
@@ -1284,7 +1284,7 @@ section {
   cursor: pointer;
   transition: all 0.3s ease 0s;
   border: 1px solid;
-}
+} */
 .home .home-content a:hover {
   color: #c21927;
   background: none;
