@@ -73,6 +73,11 @@ $(document).ready(function () {
 });
 
 
-document.getElementById("resumeDownload").addEventListener("click",()=>{
+document.getElementById("resumeDownload1").addEventListener("click",()=>{
   window.open("https://drive.google.com/file/d/13L6OYIrzC24WZfZszSOmGFauPL3snFEK/view?usp=share_link", "_target");
 })
+
+document.getElementById("resumeDownload2").addEventListener("click",()=>{
+  window.open("https://drive.google.com/file/d/13L6OYIrzC24WZfZszSOmGFauPL3snFEK/view?usp=share_link", "_target");
+})
+
