@@ -613,6 +613,9 @@ color: white;
   background-color: #123C69;
   color: #fff;
 }
+.contact{
+  background: #111;
+}
 .contact .title::after {
   content: "get in touch";
 }
@@ -1440,3 +1443,15 @@ section .title::after {
   }
 
 }
+
+
+
+.github-section-h{
+  text-align: center;
+  margin-top : 20px;
+  margin-bottom: 40px;
+  color: #c21927;
+  font-size: 40px;
+  font-weight: 700;
+}
+

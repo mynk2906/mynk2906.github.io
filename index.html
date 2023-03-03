@@ -296,28 +296,35 @@
     </section>
 
 
+    
+    
 
-
-    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
-    
-    
-     <div class="calendar" id="calendar"> 
-    
-        - this is the div where your calander will apear -->
+    <section>
+        <h1 class="github-section-h">My Github Contribution</h1>
+                <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+            
+            <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+            <link
+                rel="stylesheet"
+                href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+            />
+            
+            <!-- Prepare a container for your calendar. -->
+            <div class="calendar" style = "margin-left:30px;margin-right:30px">
+                <!-- Loading stuff -->
+                Loading the data just for you.
+            </div>
+            
+            <script>
+                // write your username at dineshjangid03 for your calander
+                GitHubCalendar(".calendar", "mynk2906");
+                GitHubCalendar(".calendar", "mynk2906", { responsive: true });
+            </script>
         
-    
-    </div> 
-    
-    <!-- <div class="calendar">
-        -- this is the div where your calander will apear 
-    </div> -->
-    
-    <script>
-        // write your username at dineshjangid03 for your calander
-        GitHubCalendar(".calendar", "mynk2906");
-        GitHubCalendar(".calendar", "mynk2906", { responsive: true });
-    </script>
+        <div class = "stats1"><p align="center" style="margin-top:10px"><img align="center" class = "stats1" src="https://github-readme-stats.vercel.app/api?username=mynk2906&show_icons=true&locale=en" alt="mynk2906" /></p></div>
+
+        <div class = "stats2"><p align="center" style="margin-top:10px" ><img class = "stats2" src="https://github-readme-streak-stats.herokuapp.com/?user=mynk2906&" alt="mynk2906" /></p></div>
+    </section>
 
 
 
