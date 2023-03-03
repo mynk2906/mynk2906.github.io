@@ -71,3 +71,8 @@ $(document).ready(function () {
     },
   });
 });
+
+
+document.getElementById("resumeDownload").addEventListener("click",()=>{
+  window.open("https://drive.google.com/file/d/13L6OYIrzC24WZfZszSOmGFauPL3snFEK/view?usp=share_link", "_target");
+})

@@ -1362,10 +1362,8 @@ body {
 
 
 .tools {
-  /* height: 540px; */
   display: grid;
-  /* grid-template-columns: repeat(auto); */
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 20px;
 }
 
@@ -1374,11 +1372,6 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-
-.tool img {
-  width: 63px;
-  height: 63px;
 }
 
 section .title {
@@ -1414,56 +1407,36 @@ section .title::after {
 }
 
 .teams .title::before {
-  background: #fff;
+  background: transparent;
 }
 
-.teams .title::after {
-  background: #111;
-  margin-top: 10px;
-  content: "what i have built";
-}
 
-.tool-img-s img{
-  /* border: 2px solid green; */
-  width: 88%;
+/* .tool-img-s img{
+  width: 50%;
   height: 70%;
-}
+} */
 
-.tool-img-s:nth-child(6) img{
-  /* border: 2px solid green; */
-  width: 68%;
+.tool img{
+  width: 60%;
   height: 60%;
 }
-.tool-img-s:nth-child(7) img{
-  /* border: 2px solid green; */
-  width: 68%;
-  height: 49%;
+.tool h3{
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 20px;
+  color:white;
 }
+
+.tools-down{
+  margin-top: 80px;
+}
+
 @media only screen and (max-width: 465px){
   
-  .tool-img-s img{
-    /* border: 2px solid green; */
-    width: 88%;
-    height: 70%;
-  }
-  .tool-img-s-java{
-    width: 70%;
+  .tool img{
+    width: 30%;
     height: 60%;
-  }
-  
-  .tool-img-s:nth-child(6) img{
-    /* border: 2px solid green; */
-    width: 75%;
-    height: 60%;
-  }
-  .tool-img-s:nth-child(7) img{
-    /* border: 2px solid green; */
-    width: 75%;
-    height: 60%;
-  }
-  .tool-img-s{
-    margin: 0;
-    padding: 0;
   }
 
 }
