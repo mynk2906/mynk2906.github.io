@@ -1435,7 +1435,7 @@ section .title::after {
   margin-top: 80px;
 }
 
-@media only screen and (max-width: 465px){
+@media only screen and (max-width: 566px){
   
   .tool img{
     width: 30%;
@@ -1454,4 +1454,30 @@ section .title::after {
   font-size: 40px;
   font-weight: 700;
 }
+
+
+.text-muted{
+  color: white;
+}
+
+.fa-html5{
+  color: #123C69;
+}
+.fa-css3{
+  color: #c21927;
+}
+.fa-js{
+  color: yellow;
+}
+.fa-java{
+  color: orange;
+}
+.fa-database{
+  color: cornflowerblue;
+}
+
+
+
+
+
 
